@@ -1,81 +1,71 @@
 *{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 body{
-    font-size: 100%;
-    background: rgb(201,251,63);
-background: radial-gradient(circle, rgba(201,251,63,1) 0%, rgba(255,174,101,1) 100%);
-
+    height: 100vh;
+    background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+        
 }
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px;
 
+.imagem{
+    width: 180px;
+    margin-left: 50px;
+    margin-top: -30px;
 }
 .menu{
     display: flex;
-    gap: 32px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 150px;
+    margin-top: -110px;
+    margin-right: 150px;
 }
-.conteudo-menu{
+   .cabecalho a{
+       font-size: 20px;
+       font-family: 'Suranna', serif;
+   }
+   .cabecalho button{
+       width: 100px;
+       height: 35px;
+       border: none;
+       outline: none;
+       border-radius: 20px;
+       background-color: yellow;
+   }
+
+   .conteudo h1{
+       margin-top: 200px;
+       margin-left: 100px;
+       font-size: 50px;
+       font-family: 'Suranna', serif;
+   }
+
+
+   .conteudo p{
+    margin-top: 25px;
+    margin-left: 100px;
     font-size: 18px;
-}
-
-.container{
-    margin-bottom: 48px;
-    border-top: 0.4px solid white;
-}
-
-.conteudo-escrito{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    
 }
-.conteudo-principal{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-.conteudo-escrito-h1{
-    font-size: 64px;
-}
-.conteudo-escrito-h2{
-    font-size: 24px;
-}
-.conteudo-escrito-botao{
-    width: 100px;
+.conteudo button{
+    margin-left: 100px;
+    width: 200px;
     height: 30px;
-    border-radius: 20px;
-}
-.conteudo-principal-imagem{
-    height: 90px;
-    width: 150px;
-}
-.conteudo-secundario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin-top: 48px;
-}
-.conteudo-secundario-titulo{
-    border-top: 0.4px solid white;
-    padding-top: 48px;
-    font-size: 24px;
-    margin-bottom: 16px;
-}
-.rodape{
-    padding: 32px;
-    border-top: 0.4px solid white;
+    margin-top: 30px;
+    border-radius: 10px;
 
 }
-.rodape-imagem{
-    display: block;
-    margin: 0 auto;
+
+
+.rodape img{
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+ margin-left: 700px;
 }
+
