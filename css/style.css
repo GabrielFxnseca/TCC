@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
     
 }
 
@@ -12,7 +16,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-image: url(file:///C:/Users/Elisa/Downloads/TCC/TCC/images/Design%20sem%20nome.png) ;
+ background-image: url("../images/design.png");
     background-size: cover;
     background-position: center;
     
@@ -121,7 +125,7 @@ margin-bottom: 40px;
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #f9004d;
+    background-color: #f9004d;
     width: 50px;
     margin-left: 110px;
   
