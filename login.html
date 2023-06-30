@@ -7,9 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/login.css">
+    <script src="https://accounts.google.com/gsi/client?hl=fr" async defer></script>
+    <script>
+        function handleCredentialResponse(response) {
+
+        }
+        window.onload = function () {
+          google.accounts.id.initialize({
+            client_id: "1056638564368-7q7dlumv2lojdnt120toqg84omp36o7o.apps.googleusercontent.com",
+            callback: handleCredentialResponse
+          });
+          google.accounts.id.renderButton(
+            document.getElementById("buttonDiv"),
+            { theme: "outline", size: "large" }  // customization attributes
+          );
+          google.accounts.id.prompt(); // also display the One Tap dialog
+        }
+    </script>
+    
 </head>
 
 <body>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <header>
         <h2><a href="../TCC-main/index.html" class="logo">Obra Facilitada</a></h2>
         <div class="navigation">
@@ -17,7 +36,7 @@
             <a href="a">Orçamento</a>
             <a href="../TCC-main/suporte2.html">Suporte</a>
             <a id="login-button" href="../TCC-main/login.html">Login</a>
-
+           
         </div>
     </header>
 
@@ -38,10 +57,9 @@
                 <button id="botao1">ENTRAR</button>
             </div>
             <div id="social">
-                <button class="botao2">ENTRAR COM GOOGLE</button>
-                <img src="images/google.png" alt="">
-                <button class="botao2">ENTRAR COM FACEBOOK</button>
-                <img id="face" src="images/facebook.png" alt="">
+                
+                <div id="buttonDiv"></div> 
+        
             </div>
 
 

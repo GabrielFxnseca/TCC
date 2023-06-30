@@ -142,19 +142,7 @@ margin-top: 80px;
     font-size: 12px;
    
 }
-#social img{
-    width: 18px;
-    position: absolute;
-    left: 165px;
-    top: 305px;
-
+#social{
+    margin-top: 20px;
+  
 }
-
-#social #face{
-    width: 17px;
-    position: absolute;
-    left: 325px;
-    top: 305px;
-
-}
-
