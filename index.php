@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Página Inicial</title>
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +17,12 @@
 <body>
     <section>
         <header>
-            <h2><a href="index.html" class="logo">Obra Facilitada</a></h2>
+            <h2><a href="index.php" class="logo">Obra Facilitada</a></h2>
             <div class="navigation">
-                <a href="calculadora.html">Calculadora</a>
-                <a href="a">Orçamento</a>
-                <a href="suporte2.html">Suporte</a>
-                <a id="login-button" href="login.html">Login</a>
+                <a href="calculadora.php">Calculadora</a>
+                <a href="relatorio.php">Relatório</a>
+                <a href="suporte.php">Suporte</a>
+                <a id="login-button" href="admin/login.php">Login</a>
 
             </div>
         </header>
@@ -46,7 +46,7 @@
                 <div class="pra">
                     <p>Utilize essa fermamenta para calcular máteriais de construção e ter uma noção completa do que será necessário para sua obra.</p>
                     <p style="text-align: center" ;>
-                        <a class="button" href="calculadora.html">read more</a>
+                        <a class="button" href="calculadora.php">read more</a>
                     </p>
                 </div>
             </div>
@@ -54,11 +54,11 @@
 
             <div class="card">
                 <img class="img1" src="images/financial.png" alt="">
-                <h5>Orçamento</h5>
+                <h5>Relatório</h5>
                 <div class="pra">
                     <p>Utilize essa ferramenta para saber a média de preço que você irá gastar na sua obra e encontrar uma loja próxima de você.</p>
                     <p style="text-align: center" ;>
-                        <a class="button" href="">read more</a>
+                        <a class="button" href="relatorio.php">read more</a>
                     </p>
                 </div>
             </div>
@@ -71,13 +71,27 @@
                 <div class="pra">
                     <p>Entre em contato com a gente para tirar dúvidas, dar sugestões e reportar possivéis erros no site enviando uma mensagem.</p>
                     <p style="text-align: center" ;>
-                        <a class="button" href="suporte2.html">read more</a>
+                        <a class="button" href="suporte.php">read more</a>
                     </p>
                 </div>
             </div>
         </div>
 
     </div>
+
+    <footer>
+        
+        <ul class="social">
+            <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>       
+        </ul>
+       
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 
