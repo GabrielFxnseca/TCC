@@ -31,7 +31,7 @@
                     
                 <div class="box">
                     <img src="images/7790128.jpg" alt="">
-                   <a href="calculoLaje.html">
+                   <a href="calculoLaje.php">
                     <button  id="button" >Laje</button>
                    </a>
                 </div>
@@ -42,13 +42,13 @@
                 
                 <div class="box">
                     <img src="images/viga.jpg" alt="">
-                    <a href="calculoViga.html">
+                    <a href="calculoViga.php">
                         <button id="button">Viga</button>
                     </a>
                 </div>
                 <div class="box1">
                     <img src="images/pilar1.jpg" alt="">
-                    <a href="calculoPilar.html">
+                    <a href="calculoPilar.php">
                         <button id="button">Pilar</button>
                     </a>
                     
