@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
     font-family: 'Inter', sans-serif;
-}
-
+}   
 
 
 
@@ -52,23 +52,94 @@ header{
     transition: .4s;
  }
 
- .text{
-    position: relative;
-    top: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    margin-top: 100px;
- }
-.mapa{
-    margin-top: 100px;
-    margin-left: 105px;
+ body{
+    background-image: url("../images/laje.png");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    
 }
 
-footer{
+
+ form{
+    background-color: #f4f4f5;;
+    width: 450px;
+    margin-left: 450px;
+    border-radius: 5px;
+    height: 520px;
+    
+ }
+ #calculadora{
+    display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  padding-top: 100px;
+ 
+ }
+ #calculadora input{
+    width: 60%;
+    height: 30px;
+ }
+
+ #botao{
+    width: 100px;
+    margin-left: 100px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+    }
+    
+    
+    form #observacoes {
+        font-size: 9px;
+       
+        display: none;
+        }
+       
+
+        #seta{
+            margin-top: -50px;
+            margin-left: -100px;
+            width: 40px;
+            cursor: pointer;
+            display: none;
+            
+          }
+
+
+ .alerta {
+    color: red;
+    display: none;
+    font-size: 15px;
+}
+  
+input:invalid + .alerta{
+    display: inline;
+}
+.composicao{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: none;
+    font-size: 23px;
+    font-weight: 700;
+}
+.resultado{
+    display: none;
+} 
+
+
+
+
+
+
+
+ footer{
     position: relative;
     width: 100%;
     background-color: #050a1a;
@@ -105,4 +176,3 @@ footer .social li a{
 footer .social li a:hover{
     transform: translateY(-10px);
 }
-

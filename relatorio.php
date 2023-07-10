@@ -22,47 +22,9 @@
 
         </div>
     </header> 
-    <div class="table">
-        <table>
-         <thead>
-            <tr>
-                <td>Produto</td>
-                <td>QNTD</td>
-                <td>Preço</td>
-            </tr>
-         </thead>
-
-         <tbody>
-            <tr>
-                <td><input type="text"></td>
-                <td><input type="number"></td>
-                <td><input type="text"></td>
-                
-            </tr>
-
-            <tr>
-                <td><input type="text"></td>
-                <td><input type="number"></td>
-                <td><input type="text"></td>
-                
-            </tr>
-
-            <tr>
-                <td><input type="text"></td>
-                <td><input type="number"></td>
-                <td><input type="text"></td>
-                
-            </tr>
-         </tbody>
-
-         <tfoot>
-            <tr>
-                <td colspan="2" align="right"></td>
-                <td></td>
-            </tr>
-         </tfoot>
-         </table>
-    </div>
+   <div class="text">
+    <span>encontre a Loja mais próxima de você no Mapa abaixo</span>
+   </div>
     
     <div class="mapa">
     <iframe style="border: 0;" src="https://8nhegburoc.execute-api.us-east-1.amazonaws.com/Prod/buscarCep?cep=02336000&amp;distancia=350000#" width="90%" height="500" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

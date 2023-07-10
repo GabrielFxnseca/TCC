@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -42,50 +48,60 @@
 
 
     <div id="container">
-        <form id="login">
+
+        
+
+        <form id="login" method="POST" action="loginOk.php">
+
             <div id="h1">
+
                 <h1>Login</h1>
+
             </div>
+
+            <?php
+                if(isset($_SESSION['nao_autenticado'])):
+            ?>
+                <div id="nao_autenticado">
+                    <p>Erro: Usuário ou senha inválidos.</p>
+                </div>
+            <?php
+                endif;
+                unset($_SESSION['nao_autenticado']);
+            ?>
 
             <div id="input">
 
                 <input type="email" name="email" id="email" placeholder="Email">
                 <input type="password" name="senha" id="senha" placeholder="Senha">
-            </div>
 
+            </div>
             <div id="entrar">
-                <button id="botao1">ENTRAR</button>
+
+                <button type="submit" id="botao1">ENTRAR</button>
+
             </div>
             <div id="social">
                 
                 <div id="buttonDiv"></div> 
         
             </div>
-
-
             <div id="criar">
+
                 <a href="sign.php">criar conta</a>
+
             </div>
-
-
             <div id="esqueci">
+
                 <a href="">esqueci minha senha</a>
+
             </div>
 
         </form>
 
     </div>
 
-    <footer>
-        
-        <ul class="social">
-            <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
-            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
-            <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
-            <li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>       
-        </ul>
-       
-    </footer>
+    
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

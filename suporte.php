@@ -25,7 +25,6 @@
     <section class="contact">
         <div class="content">
             <h2>entre em contato</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique ab quisquam atque quo velit maiores. Architecto repellat reprehenderit dolorem,</p>
         </div>
         <div class="container">
             <div class="contactInfo">

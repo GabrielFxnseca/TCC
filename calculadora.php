@@ -26,58 +26,42 @@
                 <h2>ESCOLHA UMA DAS OPÇÕES ABAIXO</h2>
             </div>
             <div class="categorias">
-                <div class="box">
-                    <img src="images/35880.jpg" alt="">
-                    <button id="button">Pintura</button>
-                </div>
+            
+                        
+                    
                 <div class="box">
                     <img src="images/7790128.jpg" alt="">
-                    <button id="button">Laje</button>
+                   <a href="calculoLaje.html">
+                    <button  id="button" >Laje</button>
+                   </a>
                 </div>
+            
+
+
+              
+                
                 <div class="box">
-                    <img src="images/5643386.jpg" alt="">
-                    <button id="button">Parede</button>
+                    <img src="images/viga.jpg" alt="">
+                    <a href="calculoViga.html">
+                        <button id="button">Viga</button>
+                    </a>
                 </div>
-                <div class="box">
-                    <img src="images/vigas.jpg" alt="">
-                    <button id="button">Vigas</button>
-                </div>
-                <div class="box">
+                <div class="box1">
                     <img src="images/pilar1.jpg" alt="">
-                    <button id="button">Pilares</button>
+                    <a href="calculoPilar.html">
+                        <button id="button">Pilar</button>
+                    </a>
+                    
                 </div>
-                <div class="box">
-                    <img src="images/Piso.jpg" alt="">
-                    <button id="button">Piso</button>
-                </div>
-                <div class="box">
-                    <img src="images/azulejo1.jpg" alt="">
-                    <button id="button">Azulejo</button>
-                </div>
-                <div class="box">
-                    <img src="images/reboco.jpg" alt="">
-                    <button id="button">Reboco</button>
-                </div>
-                <div class="box">
-                    <img src="images/6960696.jpg" alt="">
-                    <button id="button">Gesso</button>
-                </div>
-                <div class="box">
-                    <img src="images/6960696.jpg" alt="">
-                    <button id="button">PVC</button>
-                </div>
-                <div class="box">
-                    <img src="images/6960696.jpg" alt="">
-                    <button id="button">Concreto</button>
-                </div>
-
-
-
 
             </div>
+            </div>
+        </div>
+            
 
-        </section>
 
+            
+    
         <footer>
         
         <ul class="social">

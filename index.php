@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section>
+    <section id="section1">
         <header>
             <h2><a href="index.php" class="logo">Obra Facilitada</a></h2>
             <div class="navigation">
@@ -30,10 +30,12 @@
             <div class="info">
                 <h2>Construa <br><span>Do Seu Jeito</span></h2>
                 <p>A obra facilitada é o lugar ideal para quem quer realizar uma obra. <br> Utilizando nosso site você economizará  tempo e dinheiro <br>usando  nossas ferramentas construidas da maneira mais <br> dinâmica póssivel  para facilitar sua vida na hora de construir.</p>
-                <a href="a" class="info-btn">saiba mais</a>
+                <a href="#section-1" class="info-btn">saiba mais</a>
             </div>
         </div>
     </section>
+
+    <section id="section-1">
     <div class="service">
         <div class="title">
             <h2>Nossos Serviços</h2>
@@ -46,7 +48,7 @@
                 <div class="pra">
                     <p>Utilize essa fermamenta para calcular máteriais de construção e ter uma noção completa do que será necessário para sua obra.</p>
                     <p style="text-align: center" ;>
-                        <a class="button" href="calculadora.php">read more</a>
+                        <a class="button" href="calculadora.php">Saiba Mais</a>
                     </p>
                 </div>
             </div>
@@ -56,9 +58,9 @@
                 <img class="img1" src="images/financial.png" alt="">
                 <h5>Relatório</h5>
                 <div class="pra">
-                    <p>Utilize essa ferramenta para saber a média de preço que você irá gastar na sua obra e encontrar uma loja próxima de você.</p>
+                    <p>Utilize essa ferramenta para economizar tempo e encontrar todas as  lojas mais próximas de você.</p>
                     <p style="text-align: center" ;>
-                        <a class="button" href="relatorio.php">read more</a>
+                        <a class="button" href="relatorio.php">Saiba mais</a>
                     </p>
                 </div>
             </div>
@@ -71,13 +73,16 @@
                 <div class="pra">
                     <p>Entre em contato com a gente para tirar dúvidas, dar sugestões e reportar possivéis erros no site enviando uma mensagem.</p>
                     <p style="text-align: center" ;>
-                        <a class="button" href="suporte.php">read more</a>
+                        <a class="button" href="suporte.php">Saiba mais</a>
                     </p>
                 </div>
+
             </div>
         </div>
 
     </div>
+
+</section>
 
     <footer>
         

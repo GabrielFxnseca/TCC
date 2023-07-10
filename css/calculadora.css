@@ -65,27 +65,32 @@ header{
  }
  .categorias{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+justify-content: space-around;
+     
    
  }
 
  .box{
-     margin-top: 100px;
+     margin-top: 120px;
     position: relative;
     top: 0;
-   width: 360px;
-   height: 360px;
+   width: 170px;
+   height: 170px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin-left: 80px;
     border-radius: 5px;
+    flex-direction: column;
+    
+   
+    
+    
 }
+
 
 .box img{
     margin-top: 15px;
-    width: 280px;
+    width: 200px;
     position: relative;
     border-radius: 7px;
 
@@ -105,6 +110,125 @@ cursor: pointer;
 }
 
 
+.box1{
+    margin-top: 115px;
+   position: relative;
+   top: 0;
+  width: 170px;
+  height: 170px;
+   display: flex;
+   align-items: center;
+  margin-right: 20px;
+   border-radius: 5px;
+   flex-direction: column;
+   
+  
+   
+   
+}
+
+
+.box1 img{
+   margin-top: 63px;
+   width: 235px;
+ 
+   position: relative;
+   border-radius: 7px;
+
+}
+
+.box1 button{
+margin-top: 10px;
+background-color: #f9004d;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 9px 30px;
+border-radius: 30px;
+transition: .4s;
+cursor: pointer;
+}
+
+
+form{
+    margin-top: -480px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 8px;
+    display: flex;
+    width: 500px;
+    height: 560px;
+    margin-left: 100px;
+}
+form input{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px;
+}
+#botao{
+width: 100px;
+margin-top: 300px;
+margin-left: -320px;
+width: 250px;
+background-color: #f9004d;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 9px 30px;
+border-radius: 30px;
+transition: .4s;
+cursor: pointer;
+}
+#calculadora {
+flex-direction: column;
+margin-top: 120px;
+margin-left: -110px;
+}
+#calculadora input {
+    width: 370px;
+    }
+
+
+form #observacoes {
+font-size: 9px;
+margin-top: 500px;
+margin-right: -600px;
+margin-left: -410px;
+    
+    
+}
+
+
+.alerta {
+    color: red;
+    display: none;
+    font-size: 15px;
+}
+  
+input:invalid + .alerta{
+    display: inline;
+}
+.composicao{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: none;
+    font-size: 23px;
+    font-weight: 700;
+}
+.resultado{
+    display: none;
+} 
+
+#formulario #h2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
 footer{
     position: relative;
     width: 100%;
@@ -114,7 +238,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 footer .social, .menu{
